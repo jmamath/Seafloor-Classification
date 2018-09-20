@@ -50,7 +50,7 @@ def baseline_model():
 snn = baseline_model()
 snn.summary()
 
-## Running the model on one epoch to get a baseline score to increase
+## Running the model on one epoch to get a baseline score to minimize
 history = snn.fit(X1, Y, epochs = 1, batch_size = 8192, shuffle=True)
 baseline_score = history.history["loss"][0]
 
