@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 20 12:37:10 2018
-
-@author: root
-"""
-
 ########## 0 - Importing relevant libraries ##########
 import h5py
 import pandas as pd
