@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 20 13:19:50 2018
-
-@author: root
-"""
-
 ########## 0 - Importing relevant libraries ##########
 
 import numpy as np
@@ -98,5 +90,5 @@ history = vnn.fit([X_train,importance], Y_train, validation_data = ([X_test,impo
 
 
 # Save the Neural Network trained
-vnn.save_weights('AdaptatedWeights_binary1_2.h5')
+vnn.save_weights('AdaptatedWeights_binary2.h5')
 
