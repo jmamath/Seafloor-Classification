@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 20 13:12:55 2018
-
-@author: root
-"""
 ########## 0 - Importing relevant libraries ##########
 
 import numpy as np
