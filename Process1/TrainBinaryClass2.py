@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 20 12:45:00 2018
-
-@author: root
-"""
-
 ########## 0 - Importing relevant libraries ##########
 import h5py
 import pandas as pd
@@ -61,4 +53,4 @@ snn.summary()
 history = snn.fit(X, Y, epochs = 400, batch_size = 8192, shuffle=True)
 
 ## Saving the trained model
-snn.save('snn_floydhub_gpu_2.h5')
+snn.save('binary2.h5')
