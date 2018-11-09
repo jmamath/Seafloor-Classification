@@ -25,7 +25,7 @@ In summary, the echogram can be viewed as a snapshot of the water where at each 
 
 ![Alt text](figures/echogram1.jpg)
 
-## MAchine Learning Goal
+## Machine Learning Goal
 The task of deriving the true depth of the bottom is expensive because it requires an expert to go through all the echogram (~2-3 millions of pings) and adjust if necessary the bottom prediction of the automatic procedure. In fact, often the errors made by the automatic treatment of the echogram are due to their inability to accurately predict the bottom depth when the seafloor texture is soft or when high density of fish are present close to the seabed.
 
 Hence our goal is to train a machine learning precedure to classify pings in two class:
@@ -65,8 +65,9 @@ It also output the history of learning in *CDNN_history.mat*.
 These weights can be download and tested on your acoustic data.
 
 ## Dependencies
-* Languages: Matlab, Python 3
-* Environment: Tensorflow 1.7
-* Libraries: Keras, Numpy, Scipy, H5py, GyOpt
+* Languages: Matlab, Python 3.
+* Environment: Tensorflow 1.7.
+* Libraries: Keras, Numpy, Scipy, H5py, GyOpt.
+* Hardware we used for learning: GPU Tesla K80.
 
 
