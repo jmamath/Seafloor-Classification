@@ -23,7 +23,7 @@ reflection in decibel (dB)
 
 In summary, the echogram can be viewed as a snapshot of the water where at each time interval (ping) we have diverse values in dB (figure shown below).
 
-![Alt text](figures/echogram1.jpg)
+![Alt text](figures/Echogram.jpg)
 
 ## Machine Learning Goal
 The task of deriving the true depth of the bottom is expensive because it requires an expert to go through all the echogram (~2-3 millions of pings) and adjust if necessary the bottom prediction of the automatic procedure. In fact, often the errors made by the automatic treatment of the echogram are due to their inability to accurately predict the bottom depth when the seafloor texture is soft or when high density of fish are present close to the seabed.
